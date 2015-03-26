@@ -30,9 +30,9 @@ GEM
       activemodel (= 4.2.1)
       activesupport (= 4.2.1)
       arel (~> 6.0)
-    activerecord-postgis-adapter (2.2.0)
-      activerecord (~> 4.0)
-      rgeo-activerecord (~> 1.0)
+    activerecord-postgis-adapter (3.0.0.beta1)
+      activerecord (~> 4.2)
+      rgeo-activerecord (~> 2.1)
     activesupport (4.2.1)
       i18n (~> 0.7)
       json (~> 1.7, >= 1.7.7)
@@ -116,8 +116,8 @@ GEM
     rake (10.4.2)
     rdoc (4.2.0)
     rgeo (0.3.20)
-    rgeo-activerecord (1.2.0)
-      activerecord (~> 4.0)
+    rgeo-activerecord (2.1.1)
+      activerecord (~> 4.2)
       rgeo (~> 0.3)
     sass (3.4.13)
     sass-rails (5.0.1)
@@ -164,7 +164,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activerecord-postgis-adapter
+  activerecord-postgis-adapter (= 3.0.0.beta1)
   byebug
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
